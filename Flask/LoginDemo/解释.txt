@@ -1,0 +1,22 @@
+ #https://www.cnblogs.com/51kata/p/5286834.html
+    # 0.0.0.0 表示监听所有公网  你可以ipconfig看你自己的当前电脑的IP，如果是192.168.100.106
+    #那就在运行Python run.py之后，在浏览器中输入 http://192.168.100.106:8080/login
+    #然后在登录页面输入admin，密码随便填， 会跳转大一个新页面显示wlcome admin , this is home
+    #如果输入的不是admin，当前页面会显示红色的错误提示。
+
+
+@app.route('/login', methods=['POST','GET'])
+这句话我猜意思是这样的：
+flask默认的路由只有get，这样写就添加了POST方法。
+你可以打开login.html看，
+
+    <form  style="margin:20px;border:1px solid red" method="post" action="/login">
+.......
+    <button type="submit" id="loginBtn">login</button>
+
+意思应该是点击id="loginBtn"的按钮，这个动作对应的方法是post。
+
+run.py里面在/login页面，判断
+
+if request.method == 'POST':
+然后就干啥

@@ -10,8 +10,8 @@ import org.apache.jena.vocabulary.VCARD;
 
 public class Union {
 
-	static final String inputFileName1 = "vc-db-2.rdf";    
-    static final String inputFileName2 = "vc-db-3.rdf";
+	static final String inputFileName1 = "data/vc-db-2.rdf";    
+    static final String inputFileName2 = "data/vc-db-3.rdf";
     
     public static void main (String args[]) {
         // create an empty model

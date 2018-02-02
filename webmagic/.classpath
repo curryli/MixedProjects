@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/assertj-core-1.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/commons-io-1.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/commons-pool-1.5.5.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/fastjson-1.1.37.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/guava-15.0.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/httpclient-4.3.3.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/httpcore-4.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/jedis-2.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/json-path-0.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/json-smart-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/jsoup-1.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/slf4j-api-1.7.6.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/slf4j-log4j12-1.7.6.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/webmagic-core-0.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/webmagic-extension-0.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/webmagicJar/xsoup-0.2.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

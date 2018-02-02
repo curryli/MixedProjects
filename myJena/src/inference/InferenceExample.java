@@ -5,7 +5,7 @@ import org.apache.jena.reasoner.Reasoner;
 import org.apache.jena.reasoner.ReasonerRegistry;
 
 /**
- * 获取InfModel的方法
+ * 获取InfModel的方法  //使用默认的rule和data。这里好像看不到，先不用看了
  */
 
 public class InferenceExample {

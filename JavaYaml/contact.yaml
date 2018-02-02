@@ -1,0 +1,12 @@
+- !!Contact
+  age: 1
+  name: test1
+  phoneNumbers:
+  - !!Phone {name: home, number: '1111'}
+  - !!Phone {name: work, number: '2222'}
+- !!Contact
+  age: 23
+  name: test2
+  phoneNumbers:
+  - !!Phone {name: home, number: '1234'}
+  - !!Phone {name: work, number: '4321'}

@@ -13,7 +13,7 @@ import org.apache.jena.util.FileManager;
 import org.apache.jena.vocabulary.VCARD;
 
 public class AddProperty {
-    static final String inputFileName = "vc-db-1.rdf";
+    static final String inputFileName = "data/vc-db-1.rdf";
 
     public static void main(String[] args) {
         // some definitions

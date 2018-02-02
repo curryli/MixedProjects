@@ -16,7 +16,7 @@ import org.apache.jena.util.FileManager;
 import org.apache.jena.vocabulary.VCARD;
 
 public class Navigate {
-	static final String inputFileName = "vc-db-1.rdf";
+	static final String inputFileName = "data/vc-db-1.rdf";
     static final String johnSmithURI = "http://somewhere/JohnSmith/";
     
     public static void main (String args[]) {

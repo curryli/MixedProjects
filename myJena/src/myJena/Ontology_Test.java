@@ -11,7 +11,7 @@ public class Ontology_Test {
         //用Jena处理本体首先就是要建立一个本体模型 
         OntModel ontModel = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM);  //使用OWL语言、基于内存，支持RDFS推理。内存模型就是只在程序运行时存在的模型，它没有将数据写回磁盘文件或者数据库表
           
-        ontModel.read("file:./food.owl");  // 读取当前路径下的文件，加载模型
+        ontModel.read("file:./data/food.owl");  // 读取当前路径下的文件，加载模型
           
        // 定义一个类作为模型中Food类的等价类，并添加注释
         OntClass cls = ontModel.createClass(":FoodClass");  

@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 #最长公共子字符串
+#动态规划-空间换时间
 def LCS(A, B):
     n, m = len(A), len(B)
     f = [[0 for i in range(m + 1)] for j in range(n + 1)]
+    #print f
     maxNum = 0 #最大长度
     p = 0 #
     for i in range(n):
@@ -23,6 +25,7 @@ LCS(a, b)
 
 
 # #最长公共子序列 https://blog.csdn.net/littlethunder/article/details/25637173
+#https://blog.csdn.net/hrn1216/article/details/51534607
 # def lcs(a, b):
 #     lena = len(a)
 #     lenb = len(b)

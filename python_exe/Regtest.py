@@ -10,7 +10,7 @@ import re
 #     """
 # #re.sub  第二个参数：repl   可以是字符串，也可以是函数。
 #     for item in seq:
-#         item = re.sub(r'(.)\1*', lambda m: str(len(m.group(0))) + m.group(1), item)   #\1 表示第一次匹配到的字符串   group(0)就是匹配正则表达式整体结果，group(1)是匹配到的第一个
+#         item = re.sub(r'(.)\1*', lambda m: str(len(m.group(0))) + m.group(1), item)   #\1 表示第一次匹配到的字符串  *表示任意个贪婪匹配   group(0)就是匹配正则表达式整体结果，group(1)是匹配到的第一个
 #         print item
 #
 # countAndSay(["1", "11", "21", "1211", "111221"])
